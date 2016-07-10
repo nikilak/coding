@@ -38,5 +38,6 @@ count[i]=Integer.bitCount(num[i]);
   }    
   for(i=0;i<n;i++){
   System.out.print(num[i]+" ");
-  }                
-  }     
+  }    
+}
+    
