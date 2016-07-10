@@ -16,7 +16,7 @@ count[i]=Integer.bitCount(num[i]);
   for(j=i+1;j<n;j++){
   if(num[i]<num[j]){
   t=num[i];
-  numr[i]=num[j];
+  num[i]=num[j];
   num[j]=t;
   t=count[i];
   count[i]=count[j];
@@ -27,7 +27,7 @@ count[i]=Integer.bitCount(num[i]);
   for(i=0;i<n;i++){
   for(j=i+1;j<n;j++){
   if(count[i]<count[j]){
-  int t=num[i];
+  t=num[i];
   num[i]=num[j];
   num[j]=t;
   t=count[i];
